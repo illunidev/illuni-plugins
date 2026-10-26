@@ -1,0 +1,33 @@
+{
+  "name": "umzik",
+  "version": "0.1.1",
+  "description": "Turn one photo into a looping animation (GIF) from a motion template — upload, create and check results from the chat.",
+  "author": {
+    "name": "illuni"
+  },
+  "homepage": "https://umzik.com",
+  "repository": "https://github.com/illunidev/illuni-plugins",
+  "keywords": [
+    "animation",
+    "gif",
+    "photo",
+    "mcp"
+  ],
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "UMZiK",
+    "shortDescription": "Photo → looping animation",
+    "longDescription": "Turn one photo into a looping animation (GIF) from a motion template — upload, create and check results from the chat.",
+    "developerName": "illuni",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://umzik.com",
+    "defaultPrompt": [
+      "Show UMZiK animation templates",
+      "Make a waving animation from my photo"
+    ]
+  }
+}
