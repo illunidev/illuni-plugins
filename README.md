@@ -1,4 +1,8 @@
-# UMZiK plugins
+# illuni plugins
+
+Plugins from [illuni](https://github.com/illunidev) for Claude Code and Codex.
+
+## UMZiK
 
 Use [UMZiK](https://umzik.com) — turn one photo into a looping animation — from your AI agent.
 The plugin connects to the remote MCP server `https://mcp.umzik.com/mcp`; you sign in with your UMZiK account (Google · Kakao) once.
@@ -6,17 +10,17 @@ The plugin connects to the remote MCP server `https://mcp.umzik.com/mcp`; you si
 ## Claude Code
 
 ```
-/plugin marketplace add illunidev/umzik-plugins
-/plugin install umzik@umzik
+/plugin marketplace add illunidev/illuni-plugins
+/plugin install umzik@illuni
 ```
 
 Then run `/mcp` and choose **umzik → Authenticate**.
 
 ## Codex
 
-Plugins → Add → **Add plugin marketplace** → Source `illunidev/umzik-plugins`, then install **UMZiK**.
+Plugins → Add → **Add plugin marketplace** → Source `illunidev/illuni-plugins`, then install **UMZiK**.
 
-Or from the CLI: `codex plugin marketplace add illunidev/umzik-plugins`.
+Or from the CLI: `codex plugin marketplace add illunidev/illuni-plugins`.
 
 ## ChatGPT · Claude (web/app)
 
