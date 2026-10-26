@@ -1,0 +1,15 @@
+{
+  "name": "umzik",
+  "description": "UMZiK plugins",
+  "owner": {
+    "name": "illuni",
+    "url": "https://github.com/illunidev"
+  },
+  "plugins": [
+    {
+      "name": "umzik",
+      "source": "./plugins/umzik",
+      "description": "Turn one photo into a looping animation (GIF) from a motion template — upload, create and check results from the chat."
+    }
+  ]
+}

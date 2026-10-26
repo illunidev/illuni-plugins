@@ -1,0 +1,27 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "umzik": {
+      "type": "streamable-http",
+      "url": "https://mcp.umzik.com/mcp",
+      "extensions": {
+        "com.openai": {
+          "auth": {
+            "type": "oauth",
+            "client": {
+              "mode": "provided",
+              "clientId": "umzik-codex",
+              "tokenEndpointAuthMethod": "none"
+            },
+            "authorizationUrl": "https://api.umzik.com/oauth/authorize",
+            "tokenUrl": "https://api.umzik.com/oauth/token",
+            "baseScopes": [
+              "run:read",
+              "run:write"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

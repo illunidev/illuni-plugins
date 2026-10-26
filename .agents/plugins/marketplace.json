@@ -1,0 +1,20 @@
+{
+  "name": "umzik",
+  "interface": {
+    "displayName": "UMZiK"
+  },
+  "plugins": [
+    {
+      "name": "umzik",
+      "source": {
+        "source": "local",
+        "path": "./plugins/umzik"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
