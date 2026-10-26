@@ -11,7 +11,7 @@ The plugin connects to the remote MCP server `https://mcp.umzik.com/mcp`; you si
 
 ```
 /plugin marketplace add illunidev/illuni-plugins
-/plugin install umzik@illuni
+/plugin install umzik@illuni-plugins
 ```
 
 Then run `/mcp` and choose **umzik → Authenticate**.
