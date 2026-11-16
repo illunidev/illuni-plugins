@@ -1,0 +1,33 @@
+{
+  "name": "moiime",
+  "version": "0.1.0",
+  "description": "Create, edit and save 3D avatars on your Moiime (moii.me) account from the chat — describe a look, refine it in conversation, and preview it in 3D.",
+  "author": {
+    "name": "illuni"
+  },
+  "homepage": "https://moii.me/lab/mcp",
+  "repository": "https://github.com/illunidev/illuni-plugins",
+  "keywords": [
+    "avatar",
+    "3d",
+    "character",
+    "mcp"
+  ],
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Moiime",
+    "shortDescription": "Describe a 3D avatar, refine it, save it",
+    "longDescription": "Create, edit and save 3D avatars on your Moiime (moii.me) account from the chat — describe a look, refine it in conversation, and preview it in 3D.",
+    "developerName": "illuni",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://moii.me",
+    "defaultPrompt": [
+      "Show my Moiime avatars",
+      "Make a Moiime avatar with short black hair and a denim jacket"
+    ]
+  }
+}

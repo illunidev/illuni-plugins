@@ -1,0 +1,20 @@
+{
+  "name": "moiime",
+  "displayName": "Moiime",
+  "version": "0.1.0",
+  "description": "Create, edit and save 3D avatars on your Moiime (moii.me) account from the chat — describe a look, refine it in conversation, and preview it in 3D.",
+  "author": {
+    "name": "illuni",
+    "url": "https://github.com/illunidev"
+  },
+  "homepage": "https://moii.me/lab/mcp",
+  "repository": "https://github.com/illunidev/illuni-plugins",
+  "license": "Apache-2.0",
+  "privacyPolicyUrl": "https://moii.me/privacy",
+  "keywords": [
+    "avatar",
+    "3d",
+    "character",
+    "moiime"
+  ]
+}

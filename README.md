@@ -1,39 +1,19 @@
 # illuni plugins
 
-Plugins from [illuni](https://github.com/illunidev) for Claude Code and Codex.
+Plugins from [illuni](https://github.com/illunidev) for Claude Code and Codex. Each plugin connects your AI agent to one illuni service through a remote MCP server; details, tools and data use are in each plugin's README.
 
-## UMZiK
+| Plugin | Service | README |
+|---|---|---|
+| `umzik` | [UMZiK](https://umzik.com) — turn one photo into a looping animation | [plugins/umzik](plugins/umzik/README.md) |
+| `moiime` | [Moiime](https://moii.me) — create and save 3D avatars | [plugins/moiime](plugins/moiime/README.md) |
 
-Use [UMZiK](https://umzik.com) — turn one photo into a looping animation — from your AI agent.
-The plugin connects to the remote MCP server `https://mcp.umzik.com/mcp`; you sign in with your UMZiK account (Google · Kakao) once.
+## Add the marketplace
 
-## Claude Code
+Claude Code:
 
 ```
 /plugin marketplace add illunidev/illuni-plugins
-/plugin install umzik@illuni-plugins
+/plugin install <plugin>@illuni-plugins
 ```
 
-Then run `/mcp` and choose **umzik → Authenticate**.
-
-## Codex
-
-Plugins → Add → **Add plugin marketplace** → Source `illunidev/illuni-plugins`, then install **UMZiK**.
-
-Or from the CLI: `codex plugin marketplace add illunidev/illuni-plugins`.
-
-## ChatGPT · Claude (web/app)
-
-Add a custom connector with the URL `https://mcp.umzik.com/mcp`.
-
-## Tools
-
-| Tool | What it does |
-|---|---|
-| `list_templates` | Motion templates and sets |
-| `get_credits` | Remaining credits |
-| `upload_image` | Upload a photo (public URL, or a one-time upload link) |
-| `create_animation` · `create_animation_set` | Create — **spends credits** |
-| `get_animation` · `get_animation_set` · `list_my_animations` | Status and results |
-
-Disconnect anytime on the web: My page → More → Connected AI apps.
+Codex: Plugins → Add → **Add plugin marketplace** → Source `illunidev/illuni-plugins`, or `codex plugin marketplace add illunidev/illuni-plugins`.
