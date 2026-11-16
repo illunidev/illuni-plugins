@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "moiime": {
+      "type": "http",
+      "url": "https://moii.me/api/mcp"
+    }
+  }
+}

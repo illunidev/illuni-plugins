@@ -10,6 +10,11 @@
       "name": "umzik",
       "source": "./plugins/umzik",
       "description": "Turn one photo into a looping animation (GIF) from a motion template — upload, create and check results from the chat."
+    },
+    {
+      "name": "moiime",
+      "source": "./plugins/moiime",
+      "description": "Create, edit and save 3D avatars on your Moiime (moii.me) account from the chat — describe a look, refine it in conversation, and preview it in 3D."
     }
   ]
 }
